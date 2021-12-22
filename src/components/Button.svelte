@@ -9,7 +9,7 @@
 </script>
 
 <button on:click={toggleButtonText} on:click>
-  {toggleMore ? 'Less' : 'More'}
+  {toggleMore ? "Less" : "More"}
   <svg
     class:rotateArrow
     height="32"
